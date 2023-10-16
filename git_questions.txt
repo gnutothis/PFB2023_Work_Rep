@@ -1,0 +1,11 @@
+git add <filename>
+git commit -m 'comment'
+git push origin main
+
+I have questions about git.
+
+Do I need to use the add command even if I have made that file already? e.g., do edits get 'added'?
+
+In the commit command, what does the '-m' option do?
+
+Why don't I see it in my git repository online? How long does it take to upload?
