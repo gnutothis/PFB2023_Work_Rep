@@ -14,6 +14,10 @@ if num1 > 0:
     
     if num1 % 2 == 0:
       print(num1 , 'is an even number that is smaller than 50.')
+  
+  if num1 > 50:
+    if num1 % 3 == 0:
+      print(num1 , 'is larger than 50 and divisible by 3')
 
 elif num1 < 0:
   print('negative')
