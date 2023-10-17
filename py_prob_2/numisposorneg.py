@@ -12,3 +12,6 @@ if num1 > 0:
 elif num1 < 0:
   print('negative')
 
+elif num1 == 0:
+  print('number is equal to zero.')
+
