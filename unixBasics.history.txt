@@ -1,0 +1,200 @@
+   11  16.10.2023 12:26  ls -l
+   12  16.10.2023 12:26  cd /bin/
+   34  16.10.2023 12:26  cd .//
+   35  16.10.2023 12:26  cd ../
+   36  16.10.2023 12:26  ls
+   44  16.10.2023 12:26  ls
+   45  16.10.2023 12:26  ls -lt
+   46  16.10.2023 12:26  head cuffdiff.txt
+   47  16.10.2023 12:26  grep Chr7 cuffdiff.txt > fav_chr_cuffdiff.txt
+   48  16.10.2023 12:26  head fav_chr_cuffdiff.txt
+   49  16.10.2023 12:26  wc cuffdiff.txt
+   50  16.10.2023 12:26  wc fav_chr_cuffdiff.txt
+   51  16.10.2023 12:26  grep Chr9 cuffdiff.txt >> fav_chr_cuffdiff.txt
+   52  16.10.2023 12:26  cat blablabla.txt
+   53  16.10.2023 12:26  cat blablabla.txt 2> errors.txt
+   74  16.10.2023 12:26  ls
+   75  16.10.2023 12:26  cd problemsets
+   76  16.10.2023 12:26  cd ../
+   77  16.10.2023 12:26  ls
+   78  16.10.2023 12:26  cd problemsets
+   79  16.10.2023 12:26  ls
+   80  16.10.2023 12:26  pwd
+   81  16.10.2023 12:26  pwd
+   82  16.10.2023 12:26  wget  https://raw.githubusercontent.com/prog4biol/pfb2023/master/files/sequences.nt.fa 
+   83  16.10.2023 12:26  curl -O  https://raw.githubusercontent.com/prog4biol/pfb2023/master/files/sequences.nt.fa 
+   87  16.10.2023 12:26  wc sequences.nt.fa
+   90  16.10.2023 12:26  head sequences.nt.fa -1
+   91  16.10.2023 12:26  head sequences.nt.fa -2
+   92  16.10.2023 12:26  man head
+  107  16.10.2023 12:26  grep '>' sequences.nt.fa
+  108  16.10.2023 12:26  cat sequences.nt.fa
+  109  16.10.2023 12:26  mv sequences.nt.fa cancer_genes.fasta
+  111  16.10.2023 12:26  curl -O https://raw.githubusercontent.com/prog4biol/pfb2023/master/files/cuffdiff.txt\n\n
+  116  16.10.2023 12:26  cd problemsets
+  117  16.10.2023 12:26  ls
+  118  16.10.2023 12:27  head -1 cuffdiff.txt
+  119  16.10.2023 12:28  man col
+  120  16.10.2023 12:30  man cut
+  122  16.10.2023 12:33  sort -k 10 cuffdiff.txt > sorted.cuffdiff.txt
+  124  16.10.2023 12:36  cut -d " " -f10 cuffdiff.txt
+  125  16.10.2023 12:37  sort -k 10 cuffdiff.txt > sorted.cuffdiff.txt
+  131  16.10.2023 12:39  cut -d \t -f 10 sorted.cuffdiff.txt
+  132  16.10.2023 12:40  cut -f 10 sorted.cuffdiff.txt
+  133  16.10.2023 12:42  sort -k 10 | head -n 100 > top100.soted.cuffdiff.out
+  134  16.10.2023 12:43  sort -k 10 cuffdiff.txt | head -n 100 > top100.soted.cuffdiff.out
+  136  16.10.2023 12:43  head top100.soted.cuffdiff.out
+  137  16.10.2023 12:43  cut -f 10 top100.soted.cuffdiff.out
+  139  16.10.2023 12:47  sort -n -k 10 cuffdiff.txt | head -n 100 > top100.soted.cuffdiff2.out
+  141  16.10.2023 12:47  cut -f 10 top100.soted.cuffdiff2.out
+  142  16.10.2023 12:48  ls
+  143  16.10.2023 12:48  head -n 1 cuffdiff.txt
+  144  16.10.2023 13:25  ls
+  145  16.10.2023 13:25  head cuffdiff.txt
+  146  16.10.2023 13:27  echo heads\t10\nheads\t06\nheads\t09\nheads\t02 > hits.txt
+  157  16.10.2023 13:29  echo "hi\thi\nhi"
+  158  16.10.2023 13:30  echo "heads\t10\nheads\t06\nheads\t09\nheads\t02" > hits.txt
+  162  16.10.2023 13:30  cut -f 2 hits.txt
+  163  16.10.2023 13:30  sort -k 2 hits.txt
+  165  16.10.2023 13:31  rm sorted.cuffdiff.txt
+  166  16.10.2023 13:31  rm top100.soted.cuffdiff.out
+  167  16.10.2023 13:31  rm top100.soted.cuffdiff2.out
+  169  16.10.2023 13:31  rm hits.txt
+  171  16.10.2023 13:41  sort -k 10 -r cuffdiff.txt | head -n 100 > top100.sorted.txt
+  173  16.10.2023 13:42  cat top100.sorted.txt
+  175  16.10.2023 13:44  cut -f 1 top100.sorted.txt | sort | uniq > diffgenes.txt
+  178  16.10.2023 13:45  cut -f 3 top100.sorted.txt | sort | uniq > diffgenes.txt
+  179  16.10.2023 13:45  head diffgenes.txt
+  180  16.10.2023 13:45  ls
+  181  16.10.2023 13:45  cat diffgenes.txt
+  182  16.10.2023 13:45  wc diffgenes.txt
+  183  16.10.2023 13:46  mv diffgenes.txt differentially.expressed.genes.txt
+  184  16.10.2023 13:46  ls
+  185  16.10.2023 14:51  cd
+  186  16.10.2023 14:51  ls
+  187  16.10.2023 14:51  vi first_vi_file.txt
+  188  16.10.2023 15:03  ls
+  189  16.10.2023 15:03  cp first_vi_file.txt Ed_Lear.txt
+  190  16.10.2023 15:03  ls
+  191  16.10.2023 15:03  vi Ed_Lear.txt
+  192  16.10.2023 15:04  vi first_vi_file.txt
+  201  16.10.2023 15:40  vi small_poem.txt
+  206  16.10.2023 16:08  echo "# PFB2023_Work_Rep" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/gnutothis/PFB2023_Work_Rep.git\ngit push -u origin main
+  207  16.10.2023 16:10  git remote add origin https://github.com/gnutothis/PFB2023_Work_Rep.git\ngit branch -M main\ngit push -u origin main
+  209  16.10.2023 16:11  mkdir pfb_gitrep
+  211  16.10.2023 16:11  cd pfb_gitrep
+  213  16.10.2023 16:11  echo "# PFB2023_Work_Rep" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/gnutothis/PFB2023_Work_Rep.git\ngit push -u origin main
+  214  16.10.2023 16:30  cd
+  215  16.10.2023 16:30  ls
+  216  16.10.2023 16:36  cd problemsets
+  217  16.10.2023 16:36  ls
+  218  16.10.2023 16:36  cd 
+  219  16.10.2023 16:36  ls
+  220  16.10.2023 16:36  cd problemsets
+  221  16.10.2023 16:36  ls
+  222  16.10.2023 16:37  echo "# PFB2023_Work_Rep" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/gnutothis/PFB2023_Work_Rep.git\ngit push -u origin main
+  252  16.10.2023 16:49  ssh-keygen -t ed25519 -C "david.paulding@cchmc.org"
+  253  16.10.2023 16:52  ecal "$(ssh-agent -s)"
+  254  16.10.2023 16:53  eval "$(ssh-agent -s)"
+  255  16.10.2023 16:56  ls ~/.ssh
+  256  16.10.2023 17:01  open ~/.ssh/config
+  257  16.10.2023 17:01  touch ~/.ssh/config
+  258  16.10.2023 17:01  vi ~/.ssh/config
+  259  16.10.2023 17:06  cat ~/.ssh/id_ed25519.pub
+  260  16.10.2023 17:17  ls
+  261  16.10.2023 17:17  git push -u origin main
+  262  16.10.2023 17:18  git remote add origin git@github.com:gnutothis/PFB2023_Work_Rep.git\ngit push -u origin main
+  263  16.10.2023 17:18  git remote add origin git@github.com:gnutothis/PFB2023_Work_Rep.git
+  264  16.10.2023 17:20  git push -u origin main
+  265  16.10.2023 17:23  rm -rf .git
+  266  16.10.2023 17:23  ls
+  267  16.10.2023 17:24  echo "# PFB2023_Work_Rep" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:gnutothis/PFB2023_Work_Rep.git\ngit push -u origin main
+  268  16.10.2023 17:25  git push -u origin main
+  269  16.10.2023 19:04  ls
+  270  16.10.2023 19:04  cat README.md
+  271  16.10.2023 19:07  ls
+  272  16.10.2023 19:08  vi git_exercises.txt
+  273  16.10.2023 19:08  git add git_exercises.txt
+  274  16.10.2023 19:09  git commit -m 'added a line of text'
+  275  16.10.2023 19:09  git push origin main
+  277  16.10.2023 19:11  git status
+  279  16.10.2023 19:14  vi git_questions.txt
+  280  16.10.2023 19:16  git add git_questions.txt
+  281  16.10.2023 19:17  git commit -m 'made a new file'
+  282  16.10.2023 19:18  git push origin main
+  289  16.10.2023 19:27  vi .git/hooks/pre-commit
+  291  16.10.2023 19:30  mkdir files
+  292  16.10.2023 19:31  mv cancer_genes.fasta ./files
+  298  16.10.2023 19:32  git add files/cancer_genes.fasta
+  299  16.10.2023 19:32  git commit -m 'adding cancer_genes.fasta'
+  300  16.10.2023 19:32  git push
+  301  16.10.2023 19:34  chmod +x .git/hooks/pre-commit
+  302  16.10.2023 19:34  ls ./.git/hooks
+  303  16.10.2023 19:34  ls -la ./.git/hooks
+  308  16.10.2023 19:45  git clone https://github.com/prog4biol/pfb2023.git
+  320  16.10.2023 19:48  rm -rf pfb_gitrep
+  322  16.10.2023 19:48  cd pfb2023
+  323  16.10.2023 19:48  ls
+  324  16.10.2023 19:51  cd ../problemsets
+  326  16.10.2023 19:51  vi ./files/mysequences.txt
+  327  16.10.2023 20:03  git add mysequences.txt
+  328  16.10.2023 20:03  git add ./files/mysequences.txt
+  329  16.10.2023 20:03  git commit -m
+  333  16.10.2023 20:06  cp ./files/cancer_genes.fasta ./fastas/cancer_genes.fasta
+  334  16.10.2023 20:07  ls ./fastas
+  335  16.10.2023 20:07  rm ./files/cancer_genes.fasta
+  336  16.10.2023 20:07  ls ./files
+  337  16.10.2023 20:09  git commit
+  338  16.10.2023 20:09  git add ./fastas
+  340  16.10.2023 20:10  git commit -m 'forcing my hand'
+  341  16.10.2023 20:10  git push
+  342  16.10.2023 20:11  git add ./files cancer_genes.fasta
+  343  16.10.2023 20:12  echo 'hi' > oops
+  344  16.10.2023 20:12  ls
+  345  16.10.2023 20:12  git add oops
+  346  16.10.2023 20:12  git commit -m 'adding oops'
+  347  16.10.2023 20:12  git push
+  348  16.10.2023 20:12  git rm oops
+  349  16.10.2023 20:13  git commit -m 'removing oops. It was a mistake'
+  350  16.10.2023 20:13  git push
+  351  16.10.2023 20:13  echo 'this is a mistake' > oops2
+  352  16.10.2023 20:13  git add oop2
+  353  16.10.2023 20:13  git add oops2
+  354  16.10.2023 20:13  git commit -m 'again'
+  355  16.10.2023 20:14  git push
+  356  16.10.2023 20:14  ls
+  357  16.10.2023 20:14  rm oops2
+  358  16.10.2023 20:14  ls
+  359  16.10.2023 20:14  git add oop2
+  360  16.10.2023 20:14  git add oops2
+  361  16.10.2023 20:14  git commit -m 'removing oops2'
+  362  16.10.2023 20:15  git config --global --edit
+  363  16.10.2023 20:16  git push
+  364  16.10.2023 20:17  echo 'really, I mean never' > never
+  365  16.10.2023 20:17  git add never
+  366  16.10.2023 20:17  git reset never
+  367  16.10.2023 20:17  man rm
+  368  16.10.2023 20:19  man cp
+  369  16.10.2023 20:20  history
+  370  16.10.2023 20:20  history > unixBasics.history.txt
+  371  16.10.2023 20:20  ls -l unixBasics.history.txt
+  372  16.10.2023 20:21  vi unixBasics.history.txt
+  373  16.10.2023 20:21  man history
+  374  16.10.2023 20:22  history -h
+  375  16.10.2023 20:22  history -help
+  376  16.10.2023 20:22  history --help
+  377  16.10.2023 20:22  history
+  378  16.10.2023 20:23  history 100
+  379  16.10.2023 20:24  history 380
+  380  16.10.2023 20:24  history 370
+  381  16.10.2023 20:24  history 1
+  382  16.10.2023 20:26  export HISTTIMEFORMAT="%F %T "
+  383  16.10.2023 20:26  history
+  384  16.10.2023 20:26  export HISTTIMEFORMAT="%F %T "
+  385  16.10.2023 20:26  history
+  386  16.10.2023 20:28  echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bash_profile\nsource ~/.bash_profile
+  387  16.10.2023 20:28  history
+  388  16.10.2023 20:28  ls
+  389  16.10.2023 20:28  ls -l
+  390  16.10.2023 20:28   history
+  391  16.10.2023 20:28  history -E
