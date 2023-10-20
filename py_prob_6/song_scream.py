@@ -17,7 +17,9 @@ import sys
 #lab to shove it.
 
 #Yours is a sad existence, and this script is a testament to that fact.
-#Wow. Even I didn't expect this to end on such a low note.
+#Wow. Even I didn't expect this to end on such a low note.It gets even worse
+#because of the simple fact that this script really doesn't do much. It
+#literally prints song lyrics in all caps. That's it. That's all it does.
 
 #I would tell you to 'enjoy,' but we both already know you will, and that
 #just might be the saddest thing about it all.
