@@ -110,14 +110,10 @@ for entry in sequence_dictionary:
 			fragments = f_dict.split('\t')
 			fragments = [len(x) for x in fragments]
 			c_dict = [len(fragments), sum(fragments)/len(fragments), max(fragments), min(fragments)]
-			print(f'''
-sequence:	{entry}
-enzyme:		{enzyme}
-# frag:		{c_dict[0]}
-ave frag:	{c_dict[1]}
-max frag:	{c_dict[2]}
-min frag:	{c_dict[3]}''')
+				
+			print(c_dict)
 #			c_dict[0] = len(
+			break
  
 		
 #		finder = re.findall(, seq)
