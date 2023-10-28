@@ -1,0 +1,66 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 18, subversion 4 (v5.18.4) built for darwin-thread-multi-2level
+
+Found java:
+   /usr/bin/java
+   java version "21.0.1" 2023-10-17 LTS
+
+Found canu:
+   /Users/pfb15/canu-2.2/bin/canu
+   canu 2.2
+
+Running job 1 based on command line options.
+
+Running block 000001 in query 000001
+
+Running with these settings:
+--filter-threshold = 1.0E-7
+--help = false
+--max-shift = 0.2
+--min-olap-length = 500
+--min-store-length = 0
+--no-rc = false
+--no-self = false
+--no-tf = false
+--num-hashes = 768
+--num-min-matches = 2
+--num-threads = 8
+--ordered-kmer-size = 12
+--ordered-sketch-size = 1536
+--repeat-idf-scale = 10.0
+--repeat-weight = 0.9
+--settings = 0
+--store-full-id = true
+--supress-noise = 0
+--threshold = 0.73
+--version = false
+-f = 
+-h = false
+-k = 16
+-p = 
+-q = queries/000001
+-s = ./blocks/000001.dat
+
+Processing files for storage in reverse index...
+Current # sequences loaded and processed from file: 5000...
+Current # sequences loaded and processed from file: 10000...
+Current # sequences loaded and processed from file: 15000...
+Current # sequences stored: 5000...
+Current # sequences stored: 10000...
+Current # sequences stored: 15000...
+Stored 15068 sequences in the index.
+Processed 15068 unique sequences (fwd and rev).
+Time (s) to read and hash from file: 3.110466853
+Time (s) to score and output to self: 3.4893789230000003
+Total scoring time (s): 3.4903007730000004
+Total time (s): 6.600926888
+MinHash search time (s): 3.8988897170000003
+Total matches found: 89685
+Average number of matches per lookup: 11.904035041146802
+Average number of table elements processed per lookup: 1010.6181311388373
+Average number of table elements processed per match: 84.89710653955511
+Average % of hashed sequences hit per lookup: 0.5817464323665289
+Average % of hashed sequences hit that are matches: 13.580159052228002
+Average % of hashed sequences fully compared that are matches: 87.57189028736586

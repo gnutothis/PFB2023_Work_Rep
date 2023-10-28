@@ -1,3 +1,15 @@
 ngs//gatk-4.3.0.0.zip
 ngs//gatk-4.3.0.0/gatk-package-4.3.0.0-local.jar
 ngs//gatk-4.3.0.0/gatk-package-4.3.0.0-spark.jar
+g_a_problemset/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna
+genome_assembly_workshop/ecoli_filtered_0.60.fastq
+genome_assembly_workshop/oops.fastq
+genome_assembly_workshop/pacbio.fastq
+genome_assembly_workshop/xab
+new_ngs/SRR21901339.fastq
+new_ngs/gatk-4.3.0.0.zip
+new_ngs/gatk-4.3.0.0/gatk-package-4.3.0.0-local.jar
+new_ngs/gatk-4.3.0.0/gatk-package-4.3.0.0-spark.jar
+ngs/gatk-4.3.0.0.zip
+ngs/gatk-4.3.0.0/gatk-package-4.3.0.0-local.jar
+ngs/gatk-4.3.0.0/gatk-package-4.3.0.0-spark.jar

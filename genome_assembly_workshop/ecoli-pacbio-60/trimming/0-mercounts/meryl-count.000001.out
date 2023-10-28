@@ -1,0 +1,76 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 18, subversion 4 (v5.18.4) built for darwin-thread-multi-2level
+
+Found java:
+   /usr/bin/java
+   java version "21.0.1" 2023-10-17 LTS
+
+Found canu:
+   /Users/pfb15/canu-2.2/bin/canu
+   canu 2.2
+
+Running job 1 based on command line options.
+
+Found 1 command tree.
+
+Counting 62 (estimated) million canonical 22-mers from 1 input file:
+    canu-seqStore: ../../ecoli-60.seqStore
+
+
+SIMPLE MODE
+-----------
+
+  Not possible.
+
+
+COMPLEX MODE
+------------
+
+prefix     # of   struct   kmers/    segs/      min     data    total
+  bits   prefix   memory   prefix   prefix   memory   memory   memory
+------  -------  -------  -------  -------  -------  -------  -------
+     1     2  P   343 kB    15 MM    21 kS  8192  B   168 MB   169 MB
+     2     4  P   342 kB  8032 kM    10 kS    16 kB   164 MB   165 MB
+     3     8  P   347 kB  4016 kM  5148  S    32 kB   160 MB   161 MB
+     4    16  P   364 kB  2008 kM  2511  S    64 kB   156 MB   157 MB
+     5    32  P   407 kB  1004 kM  1225  S   128 kB   153 MB   153 MB
+     6    64  P   500 kB   502 kM   597  S   256 kB   149 MB   149 MB
+     7   128  P   695 kB   251 kM   291  S   512 kB   145 MB   146 MB
+     8   256  P  1092 kB   125 kM   142  S  1024 kB   142 MB   143 MB
+     9   512  P  1892 kB    62 kM    69  S  2048 kB   138 MB   139 MB
+    10  1024  P  3504 kB    31 kM    34  S  4096 kB   136 MB   139 MB  Best Value!
+    11  2048  P  6736 kB    15 kM    17  S  8192 kB   136 MB   142 MB
+    12  4096  P    12 MB  8033  M     8  S    16 MB   128 MB   140 MB
+    13  8192  P    25 MB  4017  M     4  S    32 MB   128 MB   153 MB
+    14    16 kP    50 MB  2009  M     2  S    64 MB   128 MB   178 MB
+    15    32 kP   101 MB  1005  M     1  S   128 MB   128 MB   229 MB
+    16    64 kP   202 MB   503  M     1  S   256 MB   256 MB   458 MB
+    17   128 kP   405 MB   252  M     1  S   512 MB   512 MB   917 MB
+    18   256 kP   810 MB   126  M     1  S  1024 MB  1024 MB  1834 MB
+    19   512 kP  1620 MB    63  M     1  S  2048 MB  2048 MB  3668 MB
+    20  1024 kP  3240 MB    32  M     1  S  4096 MB  4096 MB  7336 MB
+
+
+FINAL CONFIGURATION
+-------------------
+
+Estimated to require 271 MB memory out of 2048 MB allowed.
+Estimated to require 2 batches.
+
+Configured complex mode for 0.265 GB memory per batch, and up to 2 batches.
+
+Start counting with THREADED method.
+Used 0.270 GB / 1.969 GB to store      2092003 kmers; need 0.002 GB to sort        32468 kmers
+Used 0.386 GB / 1.969 GB to store     31380024 kmers; need 0.017 GB to sort       277062 kmers
+Used 0.505 GB / 1.969 GB to store     60667034 kmers; need 0.030 GB to sort       511140 kmers
+
+Input complete.  Writing results to './ecoli-60.01.meryl.WORKING', using 4 threads.
+finishIteration()--
+
+Finished counting.
+
+Cleaning up.
+
+Bye.
